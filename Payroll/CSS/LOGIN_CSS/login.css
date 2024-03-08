@@ -2,14 +2,47 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    text-decoration:none;
+}
+
+body{
+    background-color:#abd3db;
+}
+.image{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.logo{
+    height:22rem;
+    width:25rem;
+}
+
+
+.form-label{
+    font-family: Arial, sans-serif;
+    font-size:1rem;
+    
+}
+.btn {
+    background-color:var( --bs-gray-dark);
+    color:#fff;
+}
+.form-log {
+    box-shadow: 2px 7px 17px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 7px 17px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 7px 17px -1px rgba(0,0,0,0.75);
 }
 
 
 
 @media only screen and (max-width: 992px) {
-  
-    .sad{
-        display:none;
+
+    .image {
+        display: none;
+      
     }
 }
 

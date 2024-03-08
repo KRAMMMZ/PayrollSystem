@@ -27,25 +27,36 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  
+
                 </button>
 
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto ">
                         <li class="nav-item ">
                             <a href="#" class="sidebar-link">
-                                <i class="lni lni-user sad"></i>
-                                <span class="txt">Profile</span>
+                                <i class='bx bxs-dashboard'></i>
+                                <span>DashBoard</span>
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link  " href="#">About</a>
+                            <a href="#" class="sidebar-link">
+                                <i class="lni lni-agenda"></i>
+                                <span>Payroll</span>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#">Projects</a>
+                            <a href="#" class="sidebar-link">
+                                <i class="lni lni-agenda"></i>
+                            
+                                    <span>Reports</span>
+                                </a>
+                           
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">Contacts</a>
+                            <a href="#" class="sidebar-link">
+                                <i class="fas fa-history"></i>
+                                <span>History</span>
+                            </a>
                         </li>
 
                     </ul>
@@ -54,7 +65,7 @@
         </nav>
         <div class="wrapper">
             <aside id="sidebar">
-                <div class="d-flex">
+                <div class="d-flex head">
                     <button class="toggle-btn" type="button">
                         <i class="lni lni-grid-alt"></i>
                     </button>
@@ -66,7 +77,7 @@
                 <ul class="sidebar-nav">
                     <li class="sidebar-item">
                         <a href="#" class="sidebar-link">
-                          <i class='bx bxs-dashboard'></i>
+                            <i class='bx bxs-dashboard'></i>
                             <span>DashBoard</span>
                         </a>
                     </li>
@@ -76,7 +87,7 @@
                             <span>Payroll</span>
                         </a>
                     </li>
-                 <%--   <li class="sidebar-item">
+                    <%--   <li class="sidebar-item">
                         <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
                             data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
                             <i class="lni lni-protection"></i>
@@ -91,7 +102,7 @@
                             </li>
                         </ul>
                     </li>--%>
-                 <%--   <li class="sidebar-item">
+                    <%--   <li class="sidebar-item">
                         <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
                             data-bs-target="#multi" aria-expanded="false" aria-controls="multi">
                             <i class="lni lni-layout"></i>
@@ -115,13 +126,13 @@
                     </li>--%>
                     <li class="sidebar-item">
                         <a href="#" class="sidebar-link">
-                         <i class="fas fa-flag"></i>
+                            <i class="fas fa-flag"></i>
                             <span>Reports</span>
                         </a>
                     </li>
                     <li class="sidebar-item">
                         <a href="#" class="sidebar-link">
-                          <i class="fas fa-history"></i>
+                            <i class="fas fa-history"></i>
                             <span>History</span>
                         </a>
                     </li>
@@ -131,11 +142,12 @@
             <div class="main">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
+               
 
             </div>
 
 
-        </div>
+        
 
         <script src="../BOOTSTRAP5/js/bootstrap.bundle.min.js"> </script>
     </form>
@@ -145,6 +157,10 @@
         hamBurger.addEventListener("click", function () {
             document.querySelector("#sidebar").classList.toggle("expand");
         });
+
+
+
+
     </script>
 </body>
 </html>

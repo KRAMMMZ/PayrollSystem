@@ -18,34 +18,38 @@
 
         <section class="vh-100 ">
             <div class="container-fluid  h-100">
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 d-flex align-items-center justify-content-center h-100 ">
-                    <div class="col-md-8 col-lg-7 col-xl-8 sad">
-                     
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 d-flex align-items-center justify-content-center h-100 p-4 ">
+                    <div class="col-md-8 col-lg-7 col-xl-8 h-75 image">
+                      <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+                             class="img-fluid img" alt="Sample image"/>
                     </div>
-                    <div class=" col-sm-10 col-md-7 col-lg-5 col-xl-4 p-4 sew  ">
-                        <!-- Email input -->
-                        <div class="p-2 d-flex justify-content-center align-items-center asd">
-                            <img src="../RESOURCES/logo.png" class="img-fluid h-50 w-75" alt="Logo" />
+                    <div class=" col-sm-10 col-md-8 col-lg-5 col-xl-4 p-4  form-log ">
+                   
+                        <div class=" mb-4 d-flex justify-content-center qwe ">
+                            <img src="../RESOURCES/logo.png" class="img-fluid logo" alt="Logo" />
                         </div>
-                        <div class="form-outline mb-4">
-                            <input type="email" id="form1Example13" class="form-control form-control-lg" />
-                            <label class="form-label" for="form1Example13">Email address</label>
+                        <div class="form-outline mb-2">    
+                            <asp:Label ID="Label2" runat="server" CssClass="form-label fw-bold" Text="Email Address :"></asp:Label>
+                            <asp:TextBox ID="TextBox1" CssClass="form-control form-control-lg"  runat="server"></asp:TextBox>                 
+                                                  
+                        </div>
+                       
+                        <div class="form-outline mb-2">
+                             <asp:Label ID="Label1" runat="server" CssClass="form-label fw-bold" Text="Password :"></asp:Label>
+                            <asp:TextBox ID="txtpassword" CssClass="form-control form-control-lg"  runat="server" TextMode="Password"></asp:TextBox>                 
+                                                  
                         </div>
 
-                        <!-- Password input -->
-                        <div class="form-outline mb-4">
-                            <input type="password" id="form1Example23" class="form-control form-control-lg" />
-                            <label class="form-label" for="form1Example23">Password</label>
-                        </div>
-
-                        <div class="d-flex justify-content-end align-items-center mb-4">
-                          
+                        <div class="d-flex  justify-content-between align-items-center mb-4">
+                           <span>
+                            <input type="checkbox" onclick="myFunction()" />
+                            Show Password</span>
                             <a href="../DASHBOARD/Dashboard.aspx">Forgot password?</a>
                         </div>
 
                         <!-- Submit button -->
-                        <button type="submit" class="btn btn-primary btn-lg btn-block">Sign in</button>
-
+   
+                        <asp:Button ID="Button1" runat="server" CssClass="btn btn-lg btn-block" Text="Log in" />
                     
 
                     </div>
@@ -56,6 +60,16 @@
 
 
         <script src="../BOOTSTRAP5/js/bootstrap.bundle.min.js"> </script>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("txtpassword");
+                if (x.type === "password") {
+                    x.type = "text";
+                } else {
+                    x.type = "password";
+                }
+            }
+        </script>
     </form>
 </body>
 </html>

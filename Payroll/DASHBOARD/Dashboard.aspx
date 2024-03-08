@@ -2,6 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <link rel="stylesheet" href="../CSS/DASBOARD_CSS/dashboard.css" />
+
     <main class="content px-3 py-4">
      <div class="container-fluid">
          <div class="mb-3">
@@ -96,6 +98,11 @@
              </div>
          </div>
      </div>
+       
  </main>
+
+    <script>
+
+    </script>
 
 </asp:Content>

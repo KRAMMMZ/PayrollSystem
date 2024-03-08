@@ -82,6 +82,7 @@
   <ItemGroup>
     <Content Include="BOOTSTRAP5\css\bootstrap.min.css" />
     <Content Include="BOOTSTRAP5\js\bootstrap.bundle.min.js" />
+    <Content Include="CSS\DASBOARD_CSS\dashboard.css" />
     <Content Include="CSS\DASBOARD_CSS\dashBoardMasterpage.css" />
     <Content Include="CSS\LOGIN_CSS\login.css" />
     <Content Include="DASHBOARD\Dashboard.aspx" />

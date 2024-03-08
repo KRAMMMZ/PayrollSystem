@@ -17,6 +17,8 @@ li {
 
 body {
     font-family: 'Poppins', sans-serif;
+    height:100vh;
+    overflow:hidden;
 }
 
 .wrapper {
@@ -63,11 +65,12 @@ body {
 
 .sidebar-logo {
     margin: auto 0;
+
 }
 
     .sidebar-logo a {
         color: #FFF;
-        font-size: 1.15rem;
+        font-size: 1.5rem;
         font-weight: 600;
     }
 
@@ -97,18 +100,24 @@ body {
 }
 
 a.sidebar-link {
-    padding: .625rem 1.625rem;
+    padding:1.2rem;
     color: #FFF;
     display: block;
     font-size: 0.9rem;
     white-space: nowrap;
     border-left: 3px solid transparent;
 }
-
+a.sidebar-link span{
+    font-size: 1.1rem;
+}
+a.sidebar-link span:hover{
+    text-decoration:none;
+}
 .sidebar-link i,
 .dropdown-item i {
-    font-size: 1.1rem;
-    margin-right: .75rem;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+ 
 }
 
 a.sidebar-link:hover {
@@ -184,6 +193,18 @@ a.sidebar-link:hover {
 
 .sad {
     color: #fff;
+}
+
+.sidebar-item{
+    height:4rem;
+}
+.sidebar-link {
+
+    height:100%;
+   
+}
+.head{
+    height:5rem;
 }
 
 
