@@ -80,12 +80,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BOOTSTRAP5\css\bootstrap.min.css" />
+    <Content Include="BOOTSTRAP5\js\bootstrap.bundle.min.js" />
+    <Content Include="CSS\DASBOARD_CSS\dashBoardMasterpage.css" />
+    <Content Include="CSS\LOGIN_CSS\login.css" />
+    <Content Include="DASHBOARD\Dashboard.aspx" />
     <Content Include="Global.asax" />
     <Content Include="LOGIN\LoginPage.aspx" />
+    <Content Include="RESOURCES\logo.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="DASHBOARD\Dashboard_Masterpage.Master.cs">
+      <DependentUpon>Dashboard_Masterpage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DASHBOARD\Dashboard_Masterpage.Master.designer.cs">
+      <DependentUpon>Dashboard_Masterpage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="DASHBOARD\Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DASHBOARD\Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -99,6 +119,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DASHBOARD\Dashboard_Masterpage.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -109,7 +130,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="BOOTSTRAP5\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
