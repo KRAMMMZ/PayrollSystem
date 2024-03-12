@@ -31,11 +31,10 @@
                             <img src="../RESOURCES/logo.png" class="img-fluid logo" alt="Logo" />
                         </div>
                         <div class="form-outline mb-2">    
-                            <asp:Label ID="Label2" runat="server" CssClass="form-label fw-bold" Text="Email Address :"></asp:Label>
+                            <asp:Label ID="Label2" runat="server" CssClass="form-label fw-bold" Text="Email Address :"></asp:Label> <asp:Label ID="Label3" runat="server" Text="" ForeColor="Red"></asp:Label>
                             <asp:TextBox ID="txtemail" CssClass="form-control form-control-lg"  runat="server"></asp:TextBox>                 
-                                                  
+                            
                         </div>
-                        <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
                         <div class="form-outline mb-2">
                              <asp:Label ID="Label1" runat="server" CssClass="form-label fw-bold" Text="Password :"></asp:Label>
                             <asp:TextBox ID="txtpassword" CssClass="form-control form-control-lg"  runat="server" TextMode="Password"></asp:TextBox>                 

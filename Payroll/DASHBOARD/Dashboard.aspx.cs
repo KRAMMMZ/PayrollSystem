@@ -11,7 +11,13 @@ namespace Payroll.DASHBOARD
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string name = Session["name"] as string;
+            ScriptManager.RegisterStartupScript(this, GetType(), "SweetAlert", $"swal('Success!', 'Welcome {name??"user"}', 'success');", true);
 
+            //if (string.IsNullOrEmpty(name))
+            //{
+            //        Response.Redirect("~/LOGIN/LoginPage.aspx");
+            //}
         }
     }
 }
