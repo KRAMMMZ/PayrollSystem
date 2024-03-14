@@ -41,7 +41,7 @@ body {
     min-width: 70px;
     z-index: 1000;
     transition: all .25s ease-in-out;
-    background-color: #0e2238;
+    background-color: #1E1E1E;
     display: flex;
     flex-direction: column;
 }
@@ -167,7 +167,7 @@ a.sidebar-link:hover {
 
 
 .navbar {
-    background-color: #0e2238;
+    background-color: #1E1E1E;
     box-shadow: 0 0 2rem 0 rgba(33, 37, 41, .1);
    
 }

@@ -111,8 +111,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ATTENDANCE\Attendance.aspx" />
     <Content Include="BOOTSTRAP5\css\bootstrap.min.css" />
     <Content Include="BOOTSTRAP5\js\bootstrap.bundle.min.js" />
+    <Content Include="CSS\attendance.css" />
     <Content Include="CSS\DASBOARD_CSS\dashboard.css" />
     <Content Include="CSS\DASBOARD_CSS\dashBoardMasterpage.css" />
     <Content Include="CSS\LOGIN_CSS\login.css" />
@@ -124,6 +126,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="ATTENDANCE\Attendance.aspx.cs">
+      <DependentUpon>Attendance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ATTENDANCE\Attendance.aspx.designer.cs">
+      <DependentUpon>Attendance.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DASHBOARD\Dashboard_Masterpage.Master.cs">
       <DependentUpon>Dashboard_Masterpage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

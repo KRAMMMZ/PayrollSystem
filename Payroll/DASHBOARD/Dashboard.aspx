@@ -14,38 +14,27 @@
                  <div class="box col-12 col-md-6 ">
                      <div class="card border-0">
                          <div class="card-body py-4">
-                             <h5 class="mb-2 fw-bold">Memebers Progress
-                             </h5>
-                             <p class="mb-2 fw-bold">
+                           
+                             <h1 class="h1 mb-2 fw-bold">
                                  $72,540
-                             </p>
-                             <div class="mb-0">
-                                 <span class="badge text-success me-2">+9.0%
-                                 </span>
-                                 <span class=" fw-bold">Since Last Month
-                                 </span>
-                             </div>
+                             </h1>
+                             <h5 class=" fw-bold">Active Employees
+                             </h5>
                          </div>
                      </div>
                  </div>
                  <div class="box col-12 col-md-6 ">
                      <div class="card  border-0">
-                         <div class="card-body py-4">
-                             <h5 class="mb-2 fw-bold">Memebers Progress
-                             </h5>
-                             <p class="mb-2 fw-bold">
+                         <div class="card-body py-4">                       
+                             <h1 class="h1 mb-2 fw-bold">
                                  $72,540
-                             </p>
-                             <div class="mb-0">
-                                 <span class="badge text-success me-2">+9.0%
-                                 </span>
-                                 <span class="fw-bold">Since Last Month
-                                 </span>
-                             </div>
+                             </h1>
+                             <h5 class=" fw-bold">Currently Log In
+                             </h5>
                          </div>
                      </div>
                  </div>
-                 <div class="col-12 col-md-12 ">
+                 <div class="box col-12 col-md-12 ">
                      <div class="card border-0">
                          <div class="card-body py-4">
                              <h5 class="mb-2 fw-bold">Memebers Progress
@@ -63,7 +52,7 @@
                      </div>
                  </div>
              </div>
-             <h3 class="fw-bold fs-4 my-3">Avg. Agent Earnings
+             <h3 class="fw-bold fs-4 my-3">Employee Attendance (LOG IN)
              </h3>
              <div class="row">
                  <div class="col-12">

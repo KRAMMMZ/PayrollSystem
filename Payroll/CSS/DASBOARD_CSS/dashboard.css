@@ -1,6 +1,9 @@
 ﻿main {
-    background-color: #abd3db;
-  
-    height:100%;
-    overflow-y:auto;
+    background-color: #E6EBF6;
+    height: 100%;
+    overflow-y: auto;
+}
+.card{
+    background-color:#94CBC7;
+    color:#000;
 }

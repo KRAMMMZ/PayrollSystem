@@ -33,7 +33,7 @@
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto ">
                         <li class="nav-item ">
-                            <a href="#" class="sidebar-link">
+                            <a href="Dashboard.aspx" class="sidebar-link">
                                 <i class='bx bxs-dashboard'></i>
                                 <span>DashBoard</span>
                             </a>
@@ -46,16 +46,16 @@
                         </li>
                         <li class="nav-item">
                             <a href="#" class="sidebar-link">
-                                <i class="lni lni-agenda"></i>
+                                <i class="fas fa-history"></i>
                             
-                                    <span>Reports</span>
+                                    <span>History</span>
                                 </a>
                            
                         </li>
                         <li class="nav-item ">
                             <a href="#" class="sidebar-link">
-                                <i class="fas fa-history"></i>
-                                <span>History</span>
+                               <i class="fas fa-sign-out-alt"></i>
+                                 <span>Log out</span>
                             </a>
                         </li>
 
@@ -126,14 +126,14 @@
                     </li>--%>
                     <li class="sidebar-item">
                         <a href="#" class="sidebar-link">
-                            <i class="fas fa-flag"></i>
-                            <span>Reports</span>
+                            <i class="fas fa-history"></i>
+                            <span>History</span>
                         </a>
                     </li>
                     <li class="sidebar-item">
                         <a href="#" class="sidebar-link">
-                            <i class="fas fa-history"></i>
-                            <span>History</span>
+                        <i class="fas fa-sign-out-alt"></i>
+                            <span>Log out</span>
                         </a>
                     </li>
                 </ul>
@@ -146,7 +146,7 @@
 
             </div>
 
-
+            </div>
         
 
         <script src="../BOOTSTRAP5/js/bootstrap.bundle.min.js"> </script>

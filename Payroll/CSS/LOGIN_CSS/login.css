@@ -5,8 +5,9 @@
     text-decoration:none;
 }
 
-body{
-    background-color:#abd3db;
+
+.container-fluid{
+    background-color:#E6EBF6;
 }
 .image{
     display:flex;
@@ -27,13 +28,17 @@ body{
     
 }
 .btn {
-    background-color:var( --bs-gray-dark);
+    background-color:#1E1E1E;
     color:#fff;
+    transition:0.3s all ease;
+}
+.btn:hover{
+    color:#fff;
+    background-color:#94CBC7;
+    
 }
 .form-log {
-    box-shadow: 2px 7px 17px -1px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 2px 7px 17px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 2px 7px 17px -1px rgba(0,0,0,0.75);
+   
 }
 
 
