@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LoginPage.aspx.cs" Inherits="Payroll.LOGIN.LoginPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LoginPage.aspx.cs" Inherits="Payroll.LOGIN.LoginPage" Async="True" %>
 
 <!DOCTYPE html>
 
@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css" />
     <link rel="stylesheet" href="../BOOTSTRAP5/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../CSS/LOGIN_CSS/login.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.6/dist/sweetalert2.all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.6/dist/sweetalert2.min.css"rel="stylesheet"/>
     <title>Payroll System</title>
 </head>
 <body>
@@ -29,11 +31,10 @@
                             <img src="../RESOURCES/logo.png" class="img-fluid logo" alt="Logo" />
                         </div>
                         <div class="form-outline mb-2">    
-                            <asp:Label ID="Label2" runat="server" CssClass="form-label fw-bold" Text="Email Address :"></asp:Label>
-                            <asp:TextBox ID="TextBox1" CssClass="form-control form-control-lg"  runat="server"></asp:TextBox>                 
-                                                  
+                            <asp:Label ID="Label2" runat="server" CssClass="form-label fw-bold" Text="Email Address :"></asp:Label> <asp:Label ID="Label3" runat="server" Text="" ForeColor="Red"></asp:Label>
+                            <asp:TextBox ID="txtemail" CssClass="form-control form-control-lg"  runat="server"></asp:TextBox>                 
+                            
                         </div>
-                       
                         <div class="form-outline mb-2">
                              <asp:Label ID="Label1" runat="server" CssClass="form-label fw-bold" Text="Password :"></asp:Label>
                             <asp:TextBox ID="txtpassword" CssClass="form-control form-control-lg"  runat="server" TextMode="Password"></asp:TextBox>                 
@@ -49,7 +50,7 @@
 
                         <!-- Submit button -->
    
-                        <asp:Button ID="Button1" runat="server" CssClass="btn btn-lg btn-block" Text="Log in" />
+                        <asp:Button ID="Button1" runat="server" CssClass="btn btn-lg btn-block" Text="Log in" OnClick="Button1_Click" />
                     
 
                     </div>
