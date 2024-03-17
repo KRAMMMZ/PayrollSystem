@@ -20,6 +20,8 @@
 
         <div class="container w-50">
             <div class="row row-cols-1 row-cols-lg-1 g-2 ">
+                <h1 class="h1 fw-bold text-center"> CLEANING SERVICES MANAGEMENT ATTENDANCE MONITORING</h1>
+
                 <div class="col col-lg-12 p-0">
                     <asp:TextBox ID="txtCurrentDateTime" runat="server" CssClass="h-100 w-100 fw-bold text-center  txt" Enabled="False" BorderStyle="None"></asp:TextBox>
 
@@ -31,20 +33,16 @@
                 <div class="col col-lg-6  p-0 ">
                     <asp:Button ID="Button2" runat="server" CssClass="btn btn-secondary w-100 h-100" Text="TIME OUT" />
                 </div>
-                <div class="col p-5 h-100 w-100 form-log ">
+                <div class="col p-5 h-100 w-100  d-flex justify-content-center form-log ">
 
 
-                    <div class="form-outline mb-2">
+                    <div class="form-outline  w-75 mb-2">
                         <asp:Label ID="Label2" runat="server" CssClass="form-label fw-bold" Text="Email Address :"></asp:Label>
                         <asp:Label ID="Label3" runat="server" Text="" ForeColor="Red"></asp:Label>
                         <asp:TextBox ID="txtemail" CssClass="form-control form-control-lg" runat="server"></asp:TextBox>
 
                     </div>
-                    <div class="form-outline mb-2">
-                        <asp:Label ID="Label1" runat="server" CssClass="form-label fw-bold" Text="Password :"></asp:Label>
-                        <asp:TextBox ID="txtpassword" CssClass="form-control form-control-lg" runat="server" TextMode="Password"></asp:TextBox>
-
-                    </div>
+                   
 
 
                 </div>

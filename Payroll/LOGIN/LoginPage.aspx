@@ -20,15 +20,15 @@
 
         <section class="vh-100 ">
             <div class="container-fluid  h-100">
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 d-flex align-items-center justify-content-center p-4 h-100  ">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 d-flex align-items-center justify-content-center p-5 h-100  ">
                     <div class="col-md-8 col-lg-7 col-xl-8 h-75 image">
-                      <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
-                             class="img-fluid img" alt="Sample image"/>
+                      <img src="../RESOURCES/payroll-removebg-preview.png"
+                             class="img-fluid img w-75 h-100" alt="Sample image"/>
                     </div>
                     <div class=" col-sm-10 col-md-8 col-lg-5 col-xl-4 p-5 h-100 form-log ">
                    
                         <div class=" mb-4 d-flex justify-content-center qwe ">
-                            <img src="../RESOURCES/logo.png" class="img-fluid logo" alt="Logo" />
+                            <img src="../RESOURCES/1a-removebg-preview.png" class="img-fluid logo" alt="Logo" />
                         </div>
                         <div class="form-outline mb-2">    
                             <asp:Label ID="Label2" runat="server" CssClass="form-label fw-bold" Text="Email Address :"></asp:Label> <asp:Label ID="Label3" runat="server" Text="" ForeColor="Red"></asp:Label>

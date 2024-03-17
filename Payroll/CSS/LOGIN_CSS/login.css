@@ -6,8 +6,9 @@
 }
 
 
-.container-fluid{
-    background-color:#E6EBF6;
+.container-fluid {
+   
+    background-color: #94CBC7;
 }
 .image{
     display:flex;
@@ -19,6 +20,9 @@
 .logo{
     height:22rem;
     width:25rem;
+}
+.img{
+  
 }
 
 
@@ -38,7 +42,11 @@
     
 }
 .form-log {
-   
+    background-color: #E6EBF6;
+    border-radius: 20px;
+    box-shadow: 0px 0px 31px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 31px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 31px -6px rgba(0,0,0,0.75);
 }
 
 
