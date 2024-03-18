@@ -96,7 +96,6 @@ namespace Payroll.DASHBOARD
                     counter++;
                 }
             }
-
             if (!hasData)
             {
                 TableRow noDataRow = new TableRow();

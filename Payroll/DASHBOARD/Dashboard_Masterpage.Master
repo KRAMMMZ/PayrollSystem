@@ -52,7 +52,7 @@
                                 </a>
                            
                         </li>
-                        <li class="nav-item ">
+                        <li class="nav-item " id="logoutButton">
                             <a href="#" class="sidebar-link">
                                <i class="fas fa-sign-out-alt"></i>
                                  <span>Log out</span>
@@ -132,7 +132,7 @@
                             <span>History</span>
                         </a>
                     </li>
-                    <li class="sidebar-item">
+                    <li class="sidebar-item" id="logoutButtonSidebar">
                         <a href="#" class="sidebar-link">
                         <i class="fas fa-sign-out-alt"></i>
                             <span>Log out</span>
@@ -160,9 +160,19 @@
             document.querySelector("#sidebar").classList.toggle("expand");
         });
 
+            document.getElementById("logoutButton").addEventListener("click", function (e) {
+                e.preventDefault();
+            logout();
+      });
 
+            document.getElementById("logoutButtonSidebar").addEventListener("click", function (e) {
+                e.preventDefault();
+            logout();
+      });
 
-
+            function logout() {
+                window.location.href = "/LOGIN/LoginPage.aspx";
+      }
     </script>
 </body>
 </html>
