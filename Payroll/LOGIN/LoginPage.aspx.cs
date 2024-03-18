@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.UI;
@@ -44,11 +43,6 @@ namespace Payroll.LOGIN
                         Session["name"] = userName;
                         ScriptManager.RegisterStartupScript(this, GetType(), "SweetAlert", $"swal('Success!', 'Welcome', 'success');", true);
                         Response.Redirect("~/DASHBOARD/Dashboard.aspx");
-                    }
-                    else if (response.StatusCode == HttpStatusCode.InternalServerError)
-                    {
-                        Label3.Text = response.ReasonPhrase;
-                        ScriptManager.RegisterStartupScript(this, GetType(), "SweetAlert", $"swal('Error!', 'Something Went Wrong!! Try Again Later', 'error');", true);
                     }
                     else
                     {
