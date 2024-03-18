@@ -49,13 +49,16 @@ namespace Payroll.LOGIN
                         string errorContent = await response.Content.ReadAsStringAsync();
                         dynamic errorJson = Newtonsoft.Json.JsonConvert.DeserializeObject(errorContent);
                         string errorMessage = errorJson.error.message;
-                        Label3.Text = errorMessage;
+                        ScriptManager.RegisterStartupScript(this, GetType(), "SweetAlertError", $"swal('Error!', '{errorMessage}', 'error');", true);
+
                     }
                 }
             }
             catch (Exception ex)
             {
-                Label3.Text = $"An error occurred: {ex.Message}";
+         
+                ScriptManager.RegisterStartupScript(this, GetType(), "SweetAlertError", $"swal('Error!', 'An error occurred: {ex.Message}', 'error');", true);
+
             }
         }
 

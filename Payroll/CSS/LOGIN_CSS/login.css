@@ -24,7 +24,10 @@
 .img{
   
 }
-
+.required{
+    color:#ff0000;
+    font-weight:bold;
+}
 
 .form-label{
     font-family: Arial, sans-serif;

@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "G:\\Users\\Gervic\\Documents\\Visual Studio 2022\\GITHUB_Payroll_repo\\PayrollSystem\\Payroll\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{908CA0BD-44C2-4ACB-9C14-60E292CE1989}|Payroll.csproj|g:\\users\\gervic\\documents\\visual studio 2022\\github_payroll_repo\\payrollsystem\\payroll\\login\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{908CA0BD-44C2-4ACB-9C14-60E292CE1989}|Payroll.csproj|solutionrelative:login\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{908CA0BD-44C2-4ACB-9C14-60E292CE1989}|Payroll.csproj|G:\\Users\\Gervic\\Documents\\Visual Studio 2022\\GITHUB_Payroll_repo\\PayrollSystem\\Payroll\\css\\login_css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{908CA0BD-44C2-4ACB-9C14-60E292CE1989}|Payroll.csproj|solutionrelative:css\\login_css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{908CA0BD-44C2-4ACB-9C14-60E292CE1989}|Payroll.csproj|G:\\Users\\Gervic\\Documents\\Visual Studio 2022\\GITHUB_Payroll_repo\\PayrollSystem\\Payroll\\dashboard\\dashboard_masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{908CA0BD-44C2-4ACB-9C14-60E292CE1989}|Payroll.csproj|solutionrelative:dashboard\\dashboard_masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{908CA0BD-44C2-4ACB-9C14-60E292CE1989}|Payroll.csproj|g:\\users\\gervic\\documents\\visual studio 2022\\github_payroll_repo\\payrollsystem\\payroll\\dashboard\\payroll.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{908CA0BD-44C2-4ACB-9C14-60E292CE1989}|Payroll.csproj|solutionrelative:dashboard\\payroll.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{908CA0BD-44C2-4ACB-9C14-60E292CE1989}|Payroll.csproj|G:\\Users\\Gervic\\Documents\\Visual Studio 2022\\GITHUB_Payroll_repo\\PayrollSystem\\Payroll\\login\\loginpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{908CA0BD-44C2-4ACB-9C14-60E292CE1989}|Payroll.csproj|solutionrelative:login\\loginpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{908CA0BD-44C2-4ACB-9C14-60E292CE1989}|Payroll.csproj|G:\\Users\\Gervic\\Documents\\Visual Studio 2022\\GITHUB_Payroll_repo\\PayrollSystem\\Payroll\\dashboard\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{908CA0BD-44C2-4ACB-9C14-60E292CE1989}|Payroll.csproj|solutionrelative:dashboard\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{908CA0BD-44C2-4ACB-9C14-60E292CE1989}|Payroll.csproj|g:\\users\\gervic\\documents\\visual studio 2022\\github_payroll_repo\\payrollsystem\\payroll\\css\\login_css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{908CA0BD-44C2-4ACB-9C14-60E292CE1989}|Payroll.csproj|solutionrelative:css\\login_css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{908CA0BD-44C2-4ACB-9C14-60E292CE1989}|Payroll.csproj|g:\\users\\gervic\\documents\\visual studio 2022\\github_payroll_repo\\payrollsystem\\payroll\\login\\loginpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{908CA0BD-44C2-4ACB-9C14-60E292CE1989}|Payroll.csproj|solutionrelative:login\\loginpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{908CA0BD-44C2-4ACB-9C14-60E292CE1989}|Payroll.csproj|G:\\Users\\Gervic\\Documents\\Visual Studio 2022\\GITHUB_Payroll_repo\\PayrollSystem\\Payroll\\dashboard\\dashboard_masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{908CA0BD-44C2-4ACB-9C14-60E292CE1989}|Payroll.csproj|solutionrelative:dashboard\\dashboard_masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{908CA0BD-44C2-4ACB-9C14-60E292CE1989}|Payroll.csproj|G:\\Users\\Gervic\\Documents\\Visual Studio 2022\\GITHUB_Payroll_repo\\PayrollSystem\\Payroll\\css\\dasboard_css\\dashboardmasterpage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -38,59 +30,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 65,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginPage.aspx",
-              "DocumentMoniker": "G:\\Users\\Gervic\\Documents\\Visual Studio 2022\\GITHUB_Payroll_repo\\PayrollSystem\\Payroll\\LOGIN\\LoginPage.aspx",
-              "RelativeDocumentMoniker": "LOGIN\\LoginPage.aspx",
-              "ToolTip": "G:\\Users\\Gervic\\Documents\\Visual Studio 2022\\GITHUB_Payroll_repo\\PayrollSystem\\Payroll\\LOGIN\\LoginPage.aspx",
-              "RelativeToolTip": "LOGIN\\LoginPage.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-17T07:02:52.682Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "payroll.aspx",
-              "DocumentMoniker": "G:\\Users\\Gervic\\Documents\\Visual Studio 2022\\GITHUB_Payroll_repo\\PayrollSystem\\Payroll\\DASHBOARD\\payroll.aspx",
-              "RelativeDocumentMoniker": "DASHBOARD\\payroll.aspx",
-              "ToolTip": "G:\\Users\\Gervic\\Documents\\Visual Studio 2022\\GITHUB_Payroll_repo\\PayrollSystem\\Payroll\\DASHBOARD\\payroll.aspx",
-              "RelativeToolTip": "DASHBOARD\\payroll.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-17T15:17:51.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "login.css",
-              "DocumentMoniker": "G:\\Users\\Gervic\\Documents\\Visual Studio 2022\\GITHUB_Payroll_repo\\PayrollSystem\\Payroll\\CSS\\LOGIN_CSS\\login.css",
-              "RelativeDocumentMoniker": "CSS\\LOGIN_CSS\\login.css",
-              "ToolTip": "G:\\Users\\Gervic\\Documents\\Visual Studio 2022\\GITHUB_Payroll_repo\\PayrollSystem\\Payroll\\CSS\\LOGIN_CSS\\login.css",
-              "RelativeToolTip": "CSS\\LOGIN_CSS\\login.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-03-17T14:32:44.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "LoginPage.aspx.cs",
               "DocumentMoniker": "G:\\Users\\Gervic\\Documents\\Visual Studio 2022\\GITHUB_Payroll_repo\\PayrollSystem\\Payroll\\LOGIN\\LoginPage.aspx.cs",
               "RelativeDocumentMoniker": "LOGIN\\LoginPage.aspx.cs",
               "ToolTip": "G:\\Users\\Gervic\\Documents\\Visual Studio 2022\\GITHUB_Payroll_repo\\PayrollSystem\\Payroll\\LOGIN\\LoginPage.aspx.cs",
               "RelativeToolTip": "LOGIN\\LoginPage.aspx.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA5wC0AAAAVAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowEAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T14:02:48.225Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -111,7 +64,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "login.css",
+              "DocumentMoniker": "G:\\Users\\Gervic\\Documents\\Visual Studio 2022\\GITHUB_Payroll_repo\\PayrollSystem\\Payroll\\CSS\\LOGIN_CSS\\login.css",
+              "RelativeDocumentMoniker": "CSS\\LOGIN_CSS\\login.css",
+              "ToolTip": "G:\\Users\\Gervic\\Documents\\Visual Studio 2022\\GITHUB_Payroll_repo\\PayrollSystem\\Payroll\\CSS\\LOGIN_CSS\\login.css",
+              "RelativeToolTip": "CSS\\LOGIN_CSS\\login.css",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-17T14:32:44.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Dashboard.aspx",
               "DocumentMoniker": "G:\\Users\\Gervic\\Documents\\Visual Studio 2022\\GITHUB_Payroll_repo\\PayrollSystem\\Payroll\\DASHBOARD\\Dashboard.aspx",
               "RelativeDocumentMoniker": "DASHBOARD\\Dashboard.aspx",
@@ -124,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Dashboard_Masterpage.Master",
               "DocumentMoniker": "G:\\Users\\Gervic\\Documents\\Visual Studio 2022\\GITHUB_Payroll_repo\\PayrollSystem\\Payroll\\DASHBOARD\\Dashboard_Masterpage.Master",
               "RelativeDocumentMoniker": "DASHBOARD\\Dashboard_Masterpage.Master",
@@ -137,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "dashBoardMasterpage.css",
               "DocumentMoniker": "G:\\Users\\Gervic\\Documents\\Visual Studio 2022\\GITHUB_Payroll_repo\\PayrollSystem\\Payroll\\CSS\\DASBOARD_CSS\\dashBoardMasterpage.css",
               "RelativeDocumentMoniker": "CSS\\DASBOARD_CSS\\dashBoardMasterpage.css",
@@ -145,8 +111,7 @@
               "RelativeToolTip": "CSS\\DASBOARD_CSS\\dashBoardMasterpage.css",
               "ViewState": "AQIAAJ4AAAAAAAAAAAAAAKkAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-03-17T07:02:53.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T07:02:53.007Z"
             }
           ]
         }

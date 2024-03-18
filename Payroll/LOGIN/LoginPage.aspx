@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="../CSS/LOGIN_CSS/login.css" />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.6/dist/sweetalert2.all.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.6/dist/sweetalert2.min.css"rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <title>Payroll System</title>
 </head>
 <body>
@@ -31,14 +33,16 @@
                             <img src="../RESOURCES/1a-removebg-preview.png" class="img-fluid logo" alt="Logo" />
                         </div>
                         <div class="form-outline mb-2">    
-                            <asp:Label ID="Label2" runat="server" CssClass="form-label fw-bold" Text="Email Address :"></asp:Label> <asp:Label ID="Label3" runat="server" Text="" ForeColor="Red"></asp:Label>
+                            <asp:Label ID="Label2" runat="server" CssClass="form-label fw-bold" Text="Email Address :"></asp:Label><asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="* Email is Required" ControlToValidate="txtemail" CssClass="required text-danger"></asp:RequiredFieldValidator>
+                   
                             <asp:TextBox ID="txtemail" CssClass="form-control form-control-lg"  runat="server"></asp:TextBox>                 
                             
                         </div>
                         <div class="form-outline mb-2">
-                             <asp:Label ID="Label1" runat="server" CssClass="form-label fw-bold" Text="Password :"></asp:Label>
+                             <asp:Label ID="Label1" runat="server" CssClass="form-label fw-bold" Text="Password :"></asp:Label>  <asp:RequiredFieldValidator ID="passwordValidator" runat="server" ErrorMessage="* Password is Required" ControlToValidate="txtpassword" CssClass="required text-danger"></asp:RequiredFieldValidator>
+                           
                             <asp:TextBox ID="txtpassword" CssClass="form-control form-control-lg"  runat="server" TextMode="Password"></asp:TextBox>                 
-                                                  
+                                     
                         </div>
 
                         <div class="d-flex  justify-content-between align-items-center mb-4">
@@ -70,7 +74,10 @@
                     x.type = "password";
                 }
             }
+
         </script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+
     </form>
 </body>
 </html>
