@@ -119,9 +119,12 @@
     <Content Include="CSS\DASBOARD_CSS\dashBoardMasterpage.css" />
     <Content Include="CSS\LOGIN_CSS\login.css" />
     <Content Include="DASHBOARD\Dashboard.aspx" />
+    <Content Include="DASHBOARD\payroll.aspx" />
     <Content Include="Global.asax" />
     <Content Include="LOGIN\LoginPage.aspx" />
+    <Content Include="RESOURCES\1a-removebg-preview.png" />
     <Content Include="RESOURCES\logo.png" />
+    <Content Include="RESOURCES\payroll-removebg-preview.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +149,13 @@
     </Compile>
     <Compile Include="DASHBOARD\Dashboard.aspx.designer.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DASHBOARD\payroll.aspx.cs">
+      <DependentUpon>payroll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DASHBOARD\payroll.aspx.designer.cs">
+      <DependentUpon>payroll.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

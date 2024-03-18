@@ -14,7 +14,7 @@
                  <div class="box col-12 col-md-6 ">
                      <div class="card border-0">
                          <div class="card-body py-4">
-                           
+                          
                              <h1 class="h1 mb-2 fw-bold">
                                  $72,540
                              </h1>
