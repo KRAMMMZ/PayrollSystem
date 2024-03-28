@@ -14,7 +14,8 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.6/dist/sweetalert2.all.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.6/dist/sweetalert2.min.css"rel="stylesheet"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <title>Payroll System</title>
 </head>
 <body>
@@ -33,7 +34,7 @@
                             <img src="../RESOURCES/1a-removebg-preview.png" class="img-fluid logo" alt="Logo" />
                         </div>
                         <div class="form-outline mb-2">    
-                            <asp:Label ID="Label2" runat="server" CssClass="form-label fw-bold" Text="Email Address :"></asp:Label><asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="* Email is Required" ControlToValidate="txtemail" CssClass="required text-danger"></asp:RequiredFieldValidator>
+                            <asp:Label ID="Label2" runat="server" CssClass="form-label fw-bold" Text="Email Address :"> </asp:Label><asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="* Email is Required" ControlToValidate="txtemail" CssClass="required text-danger"></asp:RequiredFieldValidator>
                    
                             <asp:TextBox ID="txtemail" CssClass="form-control form-control-lg"  runat="server"></asp:TextBox>                 
                             
@@ -55,7 +56,8 @@
                         <!-- Submit button -->
    
                         <asp:Button ID="Button1" runat="server" CssClass="btn btn-lg btn-block" Text="Log in" OnClick="Button1_Click" />
-                    
+                        
+
 
                     </div>
                 </div>
@@ -76,8 +78,20 @@
             }
 
         </script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                // Function to bold the error message in SweetAlert dialog
+                function boldErrorMessage() {
+                    $('.swal-modal').find('.swal-text').css('font-weight', 'bold');
+                }
 
+                // Call the function after the dialog is shown
+                $(document).on('shown.bs.modal', '.swal-modal', function () {
+                    boldErrorMessage();
+                });
+            });
+        </script>
+       
     </form>
 </body>
 </html>

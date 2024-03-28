@@ -37,8 +37,8 @@ body {
 }
 
 #sidebar {
-    width: 70px;
-    min-width: 70px;
+    width: 260px;
+    min-width: 260px;
     z-index: 1000;
     transition: all .25s ease-in-out;
     background-color: #1E1E1E;
@@ -47,8 +47,8 @@ body {
 }
 
     #sidebar.expand {
-        width: 260px;
-        min-width: 260px;
+        width: 70px;
+        min-width: 70px;
     }
 
 .toggle-btn {
@@ -74,14 +74,15 @@ body {
         font-weight: 600;
     }
 
-#sidebar:not(.expand) .sidebar-logo,
+/*#sidebar:not(.expand) .sidebar-logo,
 #sidebar:not(.expand) a.sidebar-link span {
     display: none;
-}
+}*/
 
 #sidebar.expand .sidebar-logo,
 #sidebar.expand a.sidebar-link span {
     animation: fadeIn .25s ease;
+    display:none;
 }
 
 @keyframes fadeIn {

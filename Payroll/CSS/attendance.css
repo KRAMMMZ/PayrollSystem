@@ -7,14 +7,14 @@
   justify-content:center;
 }
 body {
-    background-color: #94CBC7;
+    background-color: #E6EBF6;
 }
 .container {
-
+   
 }
-.col {
+.buttons{
     height: 5.5rem;
-    
+  
 }
 
 .txt{
@@ -23,32 +23,42 @@ body {
     color:#000;
     
 }
-
 .form-log {
-
-    width:50%;
+  
+    width: 50%;
 }
 .h1{
-   
+    font-weight:bold;
+    color:#000;
     font-size:3rem;
 }
+.form-control{
+    border:1px solid #000;
+}
 
-@media only screen and (max-width: 992px) {
-
+@media (max-width: 1200px) {
+    .head{
+        margin-bottom:1rem;
+    }
+}
+@media (max-width: 992px) {
     .h1 {
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     }
     .txt{
         font-size:1.7rem;
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .h1 {
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
     .txt {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
+    }
+    .head {
+        margin-bottom:0;
     }
 }
 
